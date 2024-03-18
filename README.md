@@ -1,3 +1,5 @@
+# COSE
+
 [RFC9052](https://datatracker.ietf.org/doc/rfc9052/) and [RFC9053](https://datatracker.ietf.org/doc/html/rfc9053) COSE library for node.js.
 
 This library is designed to work in node.js as well in the browser but it is not currently being tested in the browser.
