@@ -5,7 +5,11 @@
     "allowJs": true,
     "types": [
       "node",
-      "jest"
+      "jest",
+    ],
+    "lib": [
+      "es2018",
+      "dom"
     ],
     "resolveJsonModule": true,
     "sourceMap": true,

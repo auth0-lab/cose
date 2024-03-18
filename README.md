@@ -2,7 +2,7 @@
 
 **Note:** this is an early project.
 
-This library is designed to work in node.js as well in the browser but is not yet tested in the browser context.
+This library is designed to work in node.js as well in the browser but it is not currently being tested in the browser.
 
 ## Installation
 
@@ -12,7 +12,7 @@ npm i --save cose-kit
 
 ## Examples
 
-You can run the following examples with `node examples/Mac0.mjs`:
+You can run the examples directly with node.
 
 - [Sign1: COSE Single Signer Data Object](examples/Sign1.mjs)
 - [Sign: COSE Signed Data Object](examples/Sign.mjs)

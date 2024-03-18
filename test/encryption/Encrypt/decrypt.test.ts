@@ -36,7 +36,6 @@ describe('encryption - COSE_Encrypt - decrypt', () => {
     expect(decrypted).toEqual(
       Buffer.from(EncryptExample01.input.plaintext, 'utf8')
     );
-    console.dir(encrypt, { depth: null });
   });
 
   it('should properly decrypt EncryptExample02', async () => {
