@@ -1,6 +1,4 @@
-[RFC9052](https://datatracker.ietf.org/doc/rfc9052/)/[RFC9053](https://datatracker.ietf.org/doc/html/rfc9053) COSE library for node.js.
-
-**Note:** this is an early project.
+[RFC9052](https://datatracker.ietf.org/doc/rfc9052/) and [RFC9053](https://datatracker.ietf.org/doc/html/rfc9053) COSE library for node.js.
 
 This library is designed to work in node.js as well in the browser but it is not currently being tested in the browser.
 
@@ -22,7 +20,8 @@ You can run the examples directly with node.
 - [COSEKey: COSEKey usage](examples/COSEKey.mjs)
 
 ## Credits
--  [panva/jose](https://github.com/panva/jose) A node.js library for JOSE.
+
+- [panva/jose](https://github.com/panva/jose) A node.js library for JOSE.
 
 ## License
 
