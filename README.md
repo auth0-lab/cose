@@ -7,7 +7,7 @@ This library is designed to work in node.js as well in the browser but it is not
 ## Installation
 
 ```
-npm i --save cose-kit
+npm i --save @auth0/cose
 ```
 
 ## Examples
