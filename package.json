@@ -78,9 +78,9 @@
     "#runtime/*": "./src/runtime/node/*.ts",
     "#dist": "./dist/node/esm/index.js"
   },
-  "repository": "github:jfromaniello/cose-kit",
+  "repository": "github:auth0-lab/cose",
   "bugs": {
-    "url": "https://github.com/jfromaniello/cose-kit/issues"
+    "url": "https://github.com/auth0-lab/cose/issues"
   },
   "keywords": [
     "cose",
