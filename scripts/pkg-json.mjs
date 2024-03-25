@@ -5,7 +5,19 @@ import path from 'path';
 
 const tsconfigs = [];
 
-let tsConfigPath = process.argv[2];
+const options = {
+  'cjs': './tsconfig/node-cjs.json',
+  'esm': './tsconfig/node-esm.json',
+  'browser': './tsconfig/browser.json'
+};
+
+let option = process.argv[2];
+let tsConfigPath = options[option];
+if (!tsConfigPath)  {
+  console.error('Invalid option');
+  process.exit(1);
+}
+
 let tsConfig = JSON.parse(fs.readFileSync(tsConfigPath, 'utf8'));
 tsconfigs.push(tsConfig);
 
