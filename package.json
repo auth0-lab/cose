@@ -46,8 +46,8 @@
     "compile:types": "tsc -p ./tsconfig/types.json",
     "clean:types": "rm -rf dist/types"
   },
-  "author": "José F. Romaniello <jfromaniello@gmail.com> (https://joseoncode.com/)",
-  "license": "MIT",
+  "author": "José F. Romaniello (https://x.com/jfroma)",
+  "license": "Apache-2.0",
   "devDependencies": {
     "@types/jest": "^29.5.4",
     "@types/lodash.merge": "^4.6.7",

@@ -27,4 +27,4 @@ You can run the examples directly with node.
 
 ## License
 
-MIT License 2023 - José F. Romaniello
+Apache-2.0 - OKTA Inc.
